@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Tracking - Ozark Habitat Solutions</title>
+    <link rel="stylesheet" href="styles/webapp.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Ozark Habitat Solutions</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Dashboard</a></li>
+                <li><a href="map.html">Food Plot Mapping</a></li>
+                <li><a href="soil-test.html">Soil Test Tracking</a></li>
+                <li><a href="weather.html">Weather Tracking</a></li>
+                <li><a href="../index.html">Back to Home</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="weather-tracking">
+            <h2>Weather Tracking</h2>
+            <form id="weather-form">
+                <label for="location">Enter Location:</label>
+                <input type="text" id="location" name="location" required>
+                <button type="submit">Get Weather</button>
+            </form>
+            <div id="weather-result"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Ozark Habitat Solutions. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts/webapp.js"></script>
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soil Test Tracking - Ozark Habitat Solutions</title>
+    <link rel="stylesheet" href="styles/webapp.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Ozark Habitat Solutions</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Dashboard</a></li>
+                <li><a href="map.html">Food Plot Mapping</a></li>
+                <li><a href="soil-test.html">Soil Test Tracking</a></li>
+                <li><a href="weather.html">Weather Tracking</a></li>
+                <li><a href="../index.html">Back to Home</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="soil-test">
+            <h2>Soil Test Tracking</h2>
+            <form id="soil-test-form">
+                <label for="pH">pH Level:</label>
+                <input type="text" id="pH" name="pH" required>
+
+                <label for="nitrogen">Nitrogen (N):</label>
+                <input type="text" id="nitrogen" name="nitrogen" required>
+
+                <label for="phosphorus">Phosphorus (P):</label>
+                <input type="text" id="phosphorus" name="phosphorus" required>
+
+                <label for="potassium">Potassium (K):</label>
+                <input type="text" id="potassium" name="potassium" required>
+
+                <button type="submit">Submit</button>
+            </form>
+            <div id="recommendations"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Ozark Habitat Solutions. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts/webapp.js"></script>
+</body>
+</html>

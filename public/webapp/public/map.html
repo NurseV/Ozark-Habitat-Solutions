@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Plot Mapping - Ozark Habitat Solutions</title>
+    <link rel="stylesheet" href="styles/webapp.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Ozark Habitat Solutions</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Dashboard</a></li>
+                <li><a href="map.html">Food Plot Mapping</a></li>
+                <li><a href="soil-test.html">Soil Test Tracking</a></li>
+                <li><a href="weather.html">Weather Tracking</a></li>
+                <li><a href="../index.html">Back to Home</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="mapping-tool">
+            <h2>Food Plot Mapping Tool</h2>
+            <div id="map" style="height: 500px;"></div>
+            <button id="save-map">Save Map</button>
+            <button id="load-maps">Load Maps</button>
+        </section>
+    </main>    
+
+    <footer>
+        <p>&copy; 2024 Ozark Habitat Solutions. All rights reserved.</p>
+    </footer>
+
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="scripts/webapp.js"></script>
+</body>
+</html>
